@@ -1,0 +1,106 @@
+@import "assets/scss/global/_vars";
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 188px 0;
+}
+
+.item {
+  &.item-1 {
+    .image {
+      transform: rotate(7deg);
+    }
+  }
+  
+  &.item-2 {
+    .image {
+      transform: rotate(-4deg);
+    }
+  }
+
+  &.item-3 {
+    position: relative;
+
+    .image {
+    }
+
+    .meta {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 185%;
+
+      &:after,
+      &:before {
+        content: '';
+        position: relative;
+        background: $color-base;
+      }
+
+      .letter {
+        padding: 0 15px;
+      }
+
+      &.meta-w {
+        top: -60px;
+        left: 0;
+        width: 100%;
+        
+        &:after,
+        &:before {
+          position: absolute;
+          top: 0;
+          height: 1px;
+          width: 51.6%;
+        }
+
+        &:before {
+          transform: rotate(-20deg);
+          left: 0;
+        }
+
+        &:after {
+          transform: rotate(20deg);
+          right: 0;
+        }
+      }
+
+      &.meta-l {
+        width: 100%;
+        margin-top:9px;
+        
+        &:after,
+        &:before {
+          top: 50%;
+          height: 1px;
+          width: 100%;
+        }
+      }
+
+      &.meta-d {
+        align-items: flex-start;
+        flex-direction: column;
+        top: 0;
+        left: -60px;
+        height: 100%;
+        
+        &:after,
+        &:before {
+          left: 50%;
+          height: 100%;
+          width: 1px;
+        }
+      }
+    }
+  }
+}
+
+.image {
+  width: 353px;
+  height: 202px;
+}

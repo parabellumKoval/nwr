@@ -1,0 +1,41 @@
+@import "./_vars";
+
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  color: $color-base;
+  background: $color-bg;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  min-width: 1920px;
+  padding: 0 75px;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-radius: 23px;
+  background: $color-bg;
+  color: $color-base;
+  border: 1px solid $color-gray;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0);
+  transition: box-shadow .3s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+}

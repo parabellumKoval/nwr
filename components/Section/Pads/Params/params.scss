@@ -1,0 +1,40 @@
+@import "assets/scss/global/_vars";
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 104px 0 133px 0;
+}
+
+.list {
+  font-style: normal;
+  line-height: 185%;
+}
+
+.props {
+  width: 400px;
+  line-height: 185%;
+
+  .hint {
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+  }
+}
+
+.prop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $color-base;
+
+  .alt {
+    margin-left: 8px;
+    font-size: 19px;
+    font-weight: 300;
+  }
+}
