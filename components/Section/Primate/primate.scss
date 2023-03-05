@@ -11,17 +11,23 @@
     .title {
       position: relative;
       width: 907px;
-      margin: -5px 0 150.5px;
-      transform: translateX(-3px);
+      margin: 0 0 146.5px;
+      transform: translateX(-3px) translateY(-5px);
       font-weight: 800;
       font-size: 82px;
       line-height: 130%;
-      letter-spacing: -0.003em;
+      letter-spacing: 0.003em;
       text-transform: uppercase;
+
+      &.part-2 {
+        letter-spacing: 0.001em;
+        line-height: 134%;
+      }
     }
 
     .list {
       line-height: 185%;
+      letter-spacing: 0.0035em;
     }
   }
 
@@ -29,11 +35,12 @@
     position: relative;
     flex-shrink: 0;
     z-index: 1;
-    transform: translateX(3px);
+    transform: translateX(3px) translateY(1px);
+    margin: 9.5px 0 0 0;
     
     .image {
-      width: 729px;
-      height: 675px;
+      width: 737px;
+      height: 678px;
     }
   }
 }
@@ -43,7 +50,7 @@
   bottom: 0;
   right: 0;
   width: 1020px;
-  height: 249px;
+  height: 251px;
   background: $color-primary;
 
   &:after {
@@ -64,7 +71,7 @@
     width: 0;
     height: 0;
     border: 0 solid transparent;
-    border-top-width: 249px;
+    border-top-width: 252px;
     border-bottom-width: 0px;
     border-right: 80px solid $color-primary;
   }

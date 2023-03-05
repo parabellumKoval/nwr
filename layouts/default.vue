@@ -4,6 +4,7 @@
 
   const scaleStyle = computed(() => {
     let scale = windowWidth.value / 1933
+    //scale = 1 
     return "transform: translate(0%, 0%) " + "scale(" + scale + ")"
   })
 

@@ -3,12 +3,12 @@
 <template>
   <div class="section-1">
     <div class="text-side">
-      <div class="title">SUPPORT YOUR PALM & RELAX YOUR WRIST</div>
+      <div class="title"><span class="part-1">SUPPORT YOUR PALM</span> <span class="part-2">& RELAX YOUR WRIST</span></div>
       
       <ul class="list">
-        <li>•  All-natural, antibacterial and allergen-free.</li>
-        <li>•  Newest US invention for computer users.</li>
-        <li>•  Provides support, comfort and mobility.</li>
+        <li>•&nbsp;&nbsp;All-natural, antibacterial and allergen-free.</li>
+        <li>•&nbsp;&nbsp;Newest US invention for computer users.</li>
+        <li>•&nbsp;&nbsp;Provides support, comfort and mobility.</li>
       </ul>
     </div>
 

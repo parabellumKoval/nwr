@@ -3,9 +3,9 @@
 <template>
   <div class="wrapper">
     <ul class="list">
-      <li>•  Set of three cushions handmade by traditional techniques.</li>
-      <li>•  Designed to conform and glide with hand, no matter the keyboard or mouse You use.</li>
-      <li>•  Strength and durable, soft and resilient, self-sanitizes and machine washable, etc.</li>
+      <li>•&nbsp;&nbsp;Set of three cushions handmade by traditional techniques.</li>
+      <li>•&nbsp;&nbsp;Designed to conform and glide with hand, no matter the keyboard or mouse You use.</li>
+      <li>•&nbsp;&nbsp;Strength and durable, soft and resilient, self-sanitizes and machine washable, etc.</li>
     </ul>
 
     <div class="props">

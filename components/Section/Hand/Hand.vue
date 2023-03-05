@@ -27,7 +27,7 @@
       </nuxt-img>
     </div>
     <div class="block-4">
-      <p class="desc">Use this set of three cushions for palm Support, Massage and Exercises. Work Comfortably all day with no Pain and no Fatigue.</p>
+      <p class="desc">Use this set of three cushions for palms Support, Massage and Exercises. Work Comfortably all day with no Pain and no Fatigue.</p>
       <p class="title">IT’S ALL THANKS TO THE NATURAL WRIST REST<span class="r">®</span></p>
     </div>
   </div>
