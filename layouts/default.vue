@@ -3,8 +3,11 @@
   const windowWidth = ref(1933)
 
   const scaleStyle = computed(() => {
-    let scale = windowWidth.value / 1933
-    //scale = 1 
+    let scale = 1
+    
+    if(windowWidth.value <= 1920)
+      scale = windowWidth.value / 1933
+
     return "transform: translate(0%, 0%) " + "scale(" + scale + ")"
   })
 
