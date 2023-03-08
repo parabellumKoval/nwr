@@ -6,7 +6,9 @@
     let scale = 1
     
     if(windowWidth.value <= 1920)
-      scale = windowWidth.value / 1933
+      scale = windowWidth.value / 1940
+      
+      // scale = windowWidth.value / 1933
 
     return "transform: translate(0%, 0%) " + "scale(" + scale + ")"
   })
