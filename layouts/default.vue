@@ -18,7 +18,7 @@
 
   onMounted(() => {
     setWindowWidth();
-    window.addEventListener("resize", setWindowWidth);
+    //window.addEventListener("resize", setWindowWidth);
   })
 
 </script>

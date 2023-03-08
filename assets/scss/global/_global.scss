@@ -1,5 +1,9 @@
 @import "./_vars";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   position: relative;
   font-family: 'Open Sans', sans-serif;
@@ -8,7 +12,7 @@ body {
   font-weight: 400;
   color: $color-base;
   background: $color-bg;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .container {

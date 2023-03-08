@@ -18,9 +18,10 @@
 
 .menu {
   display: flex;
+  transform: translateX(-7px);
 
   .item {
-    margin-right: 50px;
+    margin-right: 55px;
 
     &:last-child {
       margin-right: 0;
