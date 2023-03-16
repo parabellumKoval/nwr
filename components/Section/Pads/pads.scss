@@ -22,6 +22,7 @@
 
   &.item-3 {
     position: relative;
+    transform: translateX(-5px);
 
     .image {
     }
@@ -47,7 +48,7 @@
       }
 
       &.meta-w {
-        top: -60px;
+        top: -65px;
         left: 0;
         width: 100%;
         
@@ -56,17 +57,17 @@
           position: absolute;
           top: 0;
           height: 1px;
-          width: 51.6%;
+          width: calc(51.6% - 25px);
         }
 
         &:before {
           transform: rotate(-20deg);
-          left: 0;
+          left: 25px;
         }
 
         &:after {
           transform: rotate(20deg);
-          right: 0;
+          right: 25px;
         }
       }
 
@@ -78,7 +79,7 @@
         &:before {
           top: 50%;
           height: 1px;
-          width: 100%;
+          width: calc(50% - 50px);
         }
       }
 
@@ -92,7 +93,7 @@
         &:after,
         &:before {
           left: 50%;
-          height: 100%;
+          height: calc(50% - 33px);
           width: 1px;
         }
       }

@@ -48,18 +48,18 @@
 .decore-bg {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 1020px;
+  right: -75px;
+  width: 1095px;
   height: 251px;
   background: $color-primary;
 
   &:after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 2000px;
+    top: 4px;
+    left: -1.5px;
+    height: calc(100% - 4px);
+    width: 5px;
     background: $color-primary;
   }
 

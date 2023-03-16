@@ -7,14 +7,14 @@
     
     if(windowWidth.value <= 1920)
       scale = windowWidth.value / 1940
-      
+
       // scale = windowWidth.value / 1933
 
     return "transform: translate(0%, 0%) " + "scale(" + scale + ")"
   })
 
   const setWindowWidth = () => {
-    console.log('resize', window.innerWidth)
+    //console.log('resize', window, window.outerWidth, window.innerWidth)
     windowWidth.value = window.innerWidth
   }
 
